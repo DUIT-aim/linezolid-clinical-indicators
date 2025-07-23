@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 
 # Load the model
-mlp = joblib.load('MLP.pkl')
+mlp = joblib.load('mlp.pkl')
 scaler = joblib.load('scaler.pkl') 
 
 # Streamlit user interface
