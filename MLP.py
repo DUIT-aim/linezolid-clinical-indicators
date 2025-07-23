@@ -52,7 +52,7 @@ final_features_df = pd.DataFrame(final_features, columns=feature_names)
 
 
 if st.button("Predict"):    
-    OPTIMAL_THRESHOLD = 0.338
+    OPTIMAL_THRESHOLD = 0.157
     
     # Predict class and probabilities    
     #predicted_class = mlp.predict(final_features_df)[0]   
